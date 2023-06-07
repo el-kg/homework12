@@ -10,6 +10,5 @@ public class Main {
         Book book2 = new Book("Женщина в песках", author2, 224, 0);
         book1.setPublicationYear(1980);
         book2.setPublicationYear(1962);
-
     }
 }
