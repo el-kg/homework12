@@ -1,15 +1,14 @@
 public class Author {
-    private String Name;
+    private String name;
     private String surName;
 
     public Author(String name, String surName) {
-        this.Name = name;
+        this.name = name;
         this.surName = surName;
-
     }
 
     public String getName() {
-        return this.Name;
+        return this.name;
     }
 
     public String getSurName() {
@@ -17,7 +16,7 @@ public class Author {
     }
 
     public void setName(String name) {
-        this.Name = name;
+        this.name = name;
     }
 
     public void setSurName(String surName) {
